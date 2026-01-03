@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #1d1f20;
+    color: #fff;
+}
+.clock-border{
+    position: relative;
+    width: 600px;
+    height: 300px;
+    border: 2px solid #fff;
+    border-radius:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background:linear-gradient(-155deg,rgb(84, 0, 0) 50%,black 50%);
+}
+h2{
+    position: relative;
+    align-self: center;
+    margin-bottom: 40px;
+    
+}
+.clock-border span{
+    font-size: 80px;
+    font-weight: bolder;
+    text-shadow: 1px 1px 10px #000000bf;
+    cursor: pointer;
+    transform : 0.5s ease-in-out
+}
+
+
+@media  screen and (max-width: 700px) {
+    .clock-border{
+           width: 90%;
+        height: auto;
+        flex-direction: column;
+        padding: 20px 0;
+    }
+}
