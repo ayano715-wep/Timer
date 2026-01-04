@@ -32,10 +32,10 @@ var deg = 0;
 setInterval(() => { 
     deg+=10;
     secondHand.style.transform = `rotate(${deg}deg)`;
-    if (m == 1 ){
+    if (m >= 1 ){
         minuteHand.style.transform = `rotate(${deg}deg)`;
     }
-    if (h == 1 ){
+    if (h >= 1 ){
         hourHand.style.transform = `rotate(${deg}deg)`;
     }
     if(deg ==10){
