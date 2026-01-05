@@ -9,7 +9,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: #1d1f20;
+    background:linear-gradient(180deg ,  black  10%, #600000, black 90%); 
     color: #fff;
     user-select: none;
 }
@@ -24,6 +24,7 @@ body{
     align-items: center;
     gap: 30px;
     background:linear-gradient(-155deg,rgb(84, 0, 0) 50%,black 50%);
+    box-shadow: 0 0  25px #201f1fe2,inset 1px 1px 50px #000000cb;
 }
 h2{
     position: relative;
@@ -48,6 +49,7 @@ h2{
 
 }
 .btn button{
+    user-select: none;
     width: 100%;
     height: 100%;
     border-top-color: black;
@@ -57,7 +59,7 @@ h2{
     cursor: pointer;
     background: linear-gradient(45deg, rgb(84, 0, 0), black);
     color: rgba(211, 203, 203, 0.745);
-    box-shadow: 1px 1px 10px #000000bf;
+    box-shadow: 1px 1px 10px #000000bf,inset 1px 1px 50px #000000cb;
     transition: 0.3s ease-in-out;
     border-radius: 20px;
 }
